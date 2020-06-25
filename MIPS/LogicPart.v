@@ -1,0 +1,40 @@
+module LogicPart(aluop, a, b, result);
+        input [3:0]aluop;
+        input [31:0]a;
+        input [31:0]b;
+        output [31:0]result;
+
+        PreLP inst1 (a[0], b[0], aluop, result[0]);
+        PreLP inst2 (a[1], b[1], aluop, result[1]);
+        PreLP inst3 (a[2], b[2], aluop, result[2]);
+        PreLP inst4 (a[3], b[3], aluop, result[3]);
+        PreLP inst5 (a[4], b[4], aluop, result[4]);
+        PreLP inst6 (a[5], b[5], aluop, result[5]);
+        PreLP inst7 (a[6], b[6], aluop, result[6]);
+        PreLP inst8 (a[7], b[7], aluop, result[7]);
+        PreLP inst9 (a[8], b[8], aluop, result[8]);
+        PreLP inst10 (a[9], b[9], aluop, result[9]);
+        PreLP inst11 (a[10], b[10], aluop, result[10]);
+        PreLP inst12 (a[11], b[11], aluop, result[11]);
+        PreLP inst13 (a[12], b[12], aluop, result[12]);
+        PreLP inst14 (a[13], b[13], aluop, result[13]);
+        PreLP inst15 (a[14], b[14], aluop, result[14]);
+        PreLP inst16 (a[15], b[15], aluop, result[15]);
+        PreLP inst17 (a[16], b[16], aluop, result[16]);
+        PreLP inst18 (a[17], b[17], aluop, result[17]);
+        PreLP inst19 (a[18], b[18], aluop, result[18]);
+        PreLP inst20 (a[19], b[19], aluop, result[19]);
+        PreLP inst21 (a[20], b[20], aluop, result[20]);
+        PreLP inst22 (a[21], b[21], aluop, result[21]);
+        PreLP inst23 (a[22], b[22], aluop, result[22]);
+        PreLP inst24 (a[23], b[23], aluop, result[23]);
+        PreLP inst25 (a[24], b[24], aluop, result[24]);
+        PreLP inst26 (a[25], b[25], aluop, result[25]);
+        PreLP inst27 (a[26], b[26], aluop, result[26]);
+        PreLP inst28 (a[27], b[27], aluop, result[27]);
+        PreLP inst29 (a[28], b[28], aluop, result[28]);
+        PreLP inst30 (a[29], b[29], aluop, result[29]);
+        PreLP inst31 (a[30], b[30], aluop, result[30]);
+        PreLP inst32 (a[31], b[31], aluop, result[31]);
+
+endmodule
